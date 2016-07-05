@@ -16,10 +16,13 @@ namespace Calculatorlib
       {
         return a * b;
       }
+<<<<<<< HEAD
+    }
+=======
       public int subtract(int a, int b)
       {
         return a * b;
-      }
+      }|
+>>>>>>> parent of a9f447b... add subtract method
     }
 }
-
