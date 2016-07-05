@@ -10,6 +10,10 @@ namespace ConsoleApplication1
   {
     static void Main(string[] args)
     {
+      var calc = new Calculatorlib.Calculator();
+      var result = calc.sum(2, 1);
+      Console.WriteLine(result);
+      Console.ReadLine();
     }
   }
 }
