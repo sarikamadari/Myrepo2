@@ -6,8 +6,16 @@ using System.Threading.Tasks;
 
 namespace Calculatorlib
 {
+  ///calculator class
   public class Calculator
   {
+    /// <summary>
+    /// input parameters
+    /// </summary>
+    /// <param name="a">1st parameter</param>
+    /// <param name="b">2nd parameter</param>
+    /// <returns>input for sum method</returns>
+
     public int sum(int a, int b)
     {
       return a + b;
