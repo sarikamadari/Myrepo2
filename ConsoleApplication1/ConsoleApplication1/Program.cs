@@ -13,6 +13,8 @@ namespace ConsoleApplication1
       var calc = new Calculatorlib.Calculator();
       var result = calc.sum(2, 1);
       Console.WriteLine(result);
+      result = calc.subtract(2, 1);
+      Console.WriteLine(result);
       result = calc.multiply(2, 1);
       Console.WriteLine(result);
       Console.ReadLine();
