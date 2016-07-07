@@ -12,9 +12,9 @@ namespace Calculatorlib
     /// <summary>
     /// input parameters
     /// </summary>
-    /// <param name="a"></param>
-    /// <param name="b"></param>
-    /// <returns></returns>
+    /// <param name="a">1st parameter</param>
+    /// <param name="b">2nd parameter</param>
+    /// <returns>input for sum method</returns>
 
     public int sum(int a, int b)
     {
