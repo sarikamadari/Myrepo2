@@ -15,7 +15,7 @@ namespace ConsoleApplication1
       Console.WriteLine(result);
       result = calc.subtract(2, 1);
       Console.WriteLine(result);
-      result = calc.multiply(2, 1);
+      result = calc.subtract(2, 1);
       Console.WriteLine(result);
       Console.ReadLine();
     }
